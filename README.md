@@ -1,6 +1,6 @@
 # BERT Amharic
 
-This repo contains 4 BERT transformer models pretrained on amharic text
+This repo contains 4 BERT transformer models pretrained on `290 million tokens` of Amharic text
 
 |Model|Size (# params)|
 |-----|----|
