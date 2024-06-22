@@ -2,12 +2,12 @@
 
 This repo contains 4 BERT transformer models pretrained on `290 million tokens` of Amharic text
 
-|Model|Size (# params)| Perplexity|
-|-----|----|--|
-|bert-medium-amharic|40.5M|13.74|
-|bert-small-amharic|27.8M|15.96|
-|bert-mini-amharic|10.7M|22.42|
-|bert-tiny-amharic|4.18M|71.52|
+|Model|Size (# params)| Perplexity|Sentiment (F1)| Named Entity Recognition (F1)|
+|-----|---------------|-----------|--------------|------------------------------|
+|bert-medium-amharic|40.5M|13.74|||
+|bert-small-amharic|27.8M|15.96|0.84||
+|bert-mini-amharic|10.7M|22.42|0.80||
+|bert-tiny-amharic|4.18M|71.52|||
 
 ### Models
 You can download and load the models from HuggingFace using the transformers library.
