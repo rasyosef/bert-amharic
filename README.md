@@ -4,10 +4,10 @@ This repo contains 4 BERT transformer models pretrained on `290 million tokens` 
 
 |Model|Size (# params)| Perplexity|Sentiment (F1)| Named Entity Recognition (F1)|
 |-----|---------------|-----------|--------------|------------------------------|
-|bert-medium-amharic|40.5M|13.74|0.83||
-|bert-small-amharic|27.8M|15.96|0.83||
-|bert-mini-amharic|10.7M|22.42|0.81||
-|bert-tiny-amharic|4.18M|71.52|0.79||
+|bert-medium-amharic|40.5M|13.74|0.83|0.68|
+|bert-small-amharic|27.8M|15.96|0.83|0.68|
+|bert-mini-amharic|10.7M|22.42|0.81|0.64|
+|bert-tiny-amharic|4.18M|71.52|0.79|0.54|
 
 ### Models
 You can download and load the models from HuggingFace using the transformers library.
