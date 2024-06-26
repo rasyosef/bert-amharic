@@ -8,6 +8,8 @@ This repo contains 4 BERT transformer models pretrained on `290 million tokens` 
 |bert-small-amharic|27.8M|15.96|0.83|0.68|
 |bert-mini-amharic|10.7M|22.42|0.81|0.64|
 |bert-tiny-amharic|4.18M|71.52|0.79|0.54|
+|xlm-roberta-base|279M||0.83|0.73|
+|am-roberta|443M||0.82|0.69|
 
 ### Models
 You can download and load the models from HuggingFace using the transformers library.
