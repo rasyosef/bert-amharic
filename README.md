@@ -19,3 +19,11 @@ You can download and load the models from HuggingFace using the transformers lib
 - bert-mini-amharic : https://huggingface.co/rasyosef/bert-mini-amharic
 - bert-tiny-amharic : https://huggingface.co/rasyosef/bert-tiny-amharic
 - Amharic BERT collection : https://huggingface.co/collections/rasyosef/amharic-bert-6661e9a087ef60c3445e7939
+
+### Finetuning Code
+- **Sentiment Classification**
+  - Dataset: [amharic-sentiment](https://huggingface.co/datasets/rasyosef/amharic-sentiment)
+  - Code: https://github.com/rasyosef/amharic-sentiment-classification
+- **Named Entity Recognition**
+  - Dataset: [amharic-named-entity-recognition](https://huggingface.co/datasets/rasyosef/amharic-named-entity-recognition)
+  - Code: https://github.com/rasyosef/amharic-named-entity-recognition
