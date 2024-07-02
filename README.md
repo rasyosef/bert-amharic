@@ -1,6 +1,6 @@
 # BERT Amharic
 
-This repo contains 4 BERT transformer models pretrained on `290 million tokens` of Amharic text. All four models have a context length of `512` tokens.
+This repo contains 4 BERT transformer models pretrained on `290 million tokens` of Amharic text. All four models have a context length of `512` tokens and the same tokenizer with a vocabulary size of `28672` tokens.
 
 |Model|Size (# params)| Perplexity|Sentiment (F1)| Named Entity Recognition (F1)|
 |-----|---------------|-----------|--------------|------------------------------|
