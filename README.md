@@ -27,3 +27,6 @@ You can download and load the models from HuggingFace using the transformers lib
 - **Named Entity Recognition**
   - Dataset: [amharic-named-entity-recognition](https://huggingface.co/datasets/rasyosef/amharic-named-entity-recognition)
   - Code: https://github.com/rasyosef/amharic-named-entity-recognition
+- **News Category Classification**
+  - Dataset: [amharic-news-category-classification](https://huggingface.co/datasets/rasyosef/amharic-news-category-classification)
+  - Code: https://github.com/rasyosef/amharic-news-category-classification
