@@ -30,3 +30,33 @@ You can download and load the models from HuggingFace using the transformers lib
 - **News Category Classification**
   - Dataset: [amharic-news-category-classification](https://huggingface.co/datasets/rasyosef/amharic-news-category-classification)
   - Code: https://github.com/rasyosef/amharic-news-category-classification
+
+# How to use
+In addition to finetuning, you can use these models directly with a pipeline for masked language modeling:
+
+```python
+>>> from transformers import pipeline
+>>> unmasker = pipeline('fill-mask', model='rasyosef/bert-medium-amharic')
+>>> unmasker("ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተ [MASK] ተቆጥሯል።")
+
+[{'score': 0.5135582089424133,
+  'token': 9345,
+  'token_str': 'ዓመት',
+  'sequence': 'ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተ ዓመት ተቆጥሯል ።'},
+ {'score': 0.2923661470413208,
+  'token': 9617,
+  'token_str': 'ዓመታት',
+  'sequence': 'ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተ ዓመታት ተቆጥሯል ።'},
+ {'score': 0.09527599066495895,
+  'token': 9913,
+  'token_str': 'አመት',
+  'sequence': 'ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተ አመት ተቆጥሯል ።'},
+ {'score': 0.06960058212280273,
+  'token': 10898,
+  'token_str': 'አመታት',
+  'sequence': 'ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተ አመታት ተቆጥሯል ።'},
+ {'score': 0.019061630591750145,
+  'token': 28157,
+  'token_str': '##ዓመት',
+  'sequence': 'ከሀገራቸው ከኢትዮጵያ ከወጡ ግማሽ ምዕተዓመት ተቆጥሯል ።'}]
+```
