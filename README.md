@@ -24,9 +24,11 @@ You can download and load the models from HuggingFace using the transformers lib
 - **Sentiment Classification**
   - Dataset: [amharic-sentiment](https://huggingface.co/datasets/rasyosef/amharic-sentiment)
   - Code: https://github.com/rasyosef/amharic-sentiment-classification
+  - Finetuned Model: [bert-medium-amharic-finetuned-sentiment](https://huggingface.co/rasyosef/bert-medium-amharic-finetuned-sentiment)
 - **Named Entity Recognition**
   - Dataset: [amharic-named-entity-recognition](https://huggingface.co/datasets/rasyosef/amharic-named-entity-recognition)
   - Code: https://github.com/rasyosef/amharic-named-entity-recognition
+  - Finetuned Model: [bert-medium-amharic-finetuned-ner](https://huggingface.co/rasyosef/bert-medium-amharic-finetuned-ner)
 - **News Category Classification**
   - Dataset: [amharic-news-category-classification](https://huggingface.co/datasets/rasyosef/amharic-news-category-classification)
   - Code: https://github.com/rasyosef/amharic-news-category-classification
